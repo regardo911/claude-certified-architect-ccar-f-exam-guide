@@ -1,0 +1,20 @@
+{
+  "type": "object",
+  "required": ["findings"],
+  "properties": {
+    "findings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["file", "line", "severity", "message"],
+        "properties": {
+          "file": {"type": "string"},
+          "line": {"type": "integer"},
+          "severity": {"type": "string",
+                       "enum": ["bug", "security", "validation"]},
+          "message": {"type": "string"}
+        }
+      }
+    }
+  }
+}

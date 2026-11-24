@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "support": {
+      "command": "python",
+      "args": ["server.py"],
+      "env": { "SUPPORT_API_TOKEN": "${SUPPORT_API_TOKEN}" }
+    }
+  }
+}

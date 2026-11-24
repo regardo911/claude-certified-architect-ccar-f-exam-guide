@@ -1,0 +1,4 @@
+claude-agent-sdk>=0.2.187
+mcp[cli]>=2.3,<3
+anthropic>=2.12
+pydantic>=2.14

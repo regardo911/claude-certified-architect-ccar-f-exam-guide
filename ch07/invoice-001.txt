@@ -1,0 +1,8 @@
+NORTHWIND CLOUD LTD
+Invoice INV-2207
+
+  Hosting, standard plan ......... $1,204.50
+  Support add-on ................... $300.00
+
+  TOTAL DUE: $1,504.50
+Payment within 30 days.
